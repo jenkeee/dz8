@@ -21,7 +21,6 @@ namespace dz8_3_solution
             InitializeComponent();
             //labelHI.Text = "    Вас приветсвует редактор вопросов для игры (верю/неверю) \n Для начала работы вам требуется создать новую базу вопросов или открыть" +
             //    " уже готовую, \nпроследуйте к верхнему меню в разделе Fail/";
-            labelHI.Visible = false;
             tbVoprosy.Text = "    Вас приветсвует редактор вопросов для игры (верю/неверю) \n Для начала работы вам требуется создать новую базу вопросов или открыть" +
                 " уже готовую, \nпроследуйте к верхнему меню в разделе Fail \r\n\n Кнопку save снизу оставил, добавил сейф в фаил, так удобней чем наверх лезть. \r\n " +
                 "щас думаю о кнопке делит, не нравиться как работает";
@@ -38,6 +37,7 @@ namespace dz8_3_solution
 
         private void menubtnNew_Click(object sender, EventArgs e)
         {
+            tbVoprosy.Enabled = true;
             ////////// для того чтобы сохранить документ нам потребуется вспомогательный стандартный  класс safefiledialog
             SaveFileDialog dialog = new SaveFileDialog() // добавим фильтры
             {
@@ -86,7 +86,7 @@ namespace dz8_3_solution
 
         private void menubtnOpen_Click(object sender, EventArgs e)
         {
-
+            tbVoprosy.Enabled = true;
             OpenFileDialog dialog = new OpenFileDialog
             {
                 InitialDirectory = Application.StartupPath,
@@ -250,7 +250,12 @@ namespace dz8_3_solution
 
         private void menuStrip1_MouseHover(object sender, EventArgs e)
         {
-            tbVoprosy.Enabled = true;
+                        labelHI.Visible = false;
+        }
+
+        private void menubtnNew_MouseHover(object sender, EventArgs e)
+        {
+           // tbVoprosy.Enabled = true;
         }
     }
 }
