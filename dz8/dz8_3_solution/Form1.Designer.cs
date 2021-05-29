@@ -80,9 +80,10 @@ namespace dz8_3_solution
             // menubtnNew
             // 
             this.menubtnNew.Name = "menubtnNew";
-            this.menubtnNew.Size = new System.Drawing.Size(126, 22);
+            this.menubtnNew.Size = new System.Drawing.Size(180, 22);
             this.menubtnNew.Text = "New";
             this.menubtnNew.Click += new System.EventHandler(this.menubtnNew_Click);
+            this.menubtnNew.MouseHover += new System.EventHandler(this.menubtnNew_MouseHover);
             // 
             // menubtnOpen
             // 
@@ -226,13 +227,15 @@ namespace dz8_3_solution
             this.labelHI.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.labelHI.BackColor = System.Drawing.Color.Cyan;
             this.labelHI.Font = new System.Drawing.Font("Arial Narrow", 16.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.labelHI.Location = new System.Drawing.Point(0, 24);
             this.labelHI.Name = "labelHI";
-            this.labelHI.Padding = new System.Windows.Forms.Padding(50);
+            this.labelHI.Padding = new System.Windows.Forms.Padding(0, 0, 50, 50);
             this.labelHI.Size = new System.Drawing.Size(801, 437);
             this.labelHI.TabIndex = 3;
-            this.labelHI.Text = "Вас приветсвует программа редактор вопросов для игры верю не верю";
+            this.labelHI.Text = "^\r\n||\r\n||\r\nПривет, для продолжения работы воспользуйся меню.\r\nВы видите это окно " +
+    "только для демонстрации цвета, мне лень делать темную тему.\r\n\r\n";
             // 
             // Form1
             // 
