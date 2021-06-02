@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dz8_3_solution", "dz8_3_sol
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dz8_4", "dz8_4\dz8_4.csproj", "{D71390D9-0CBD-46E4-95B7-BD7CE1A0FCE0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "(not used work)for8_4", "for8_4\(not used work)for8_4.csproj", "{E093C8FD-49D6-44FB-A78E-3D3B0CC6BFC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dz8_4_other", "dz8_4_other\dz8_4_other.csproj", "{083469A3-5C36-4237-9310-4DE7DAFC8D9E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{D71390D9-0CBD-46E4-95B7-BD7CE1A0FCE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D71390D9-0CBD-46E4-95B7-BD7CE1A0FCE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D71390D9-0CBD-46E4-95B7-BD7CE1A0FCE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E093C8FD-49D6-44FB-A78E-3D3B0CC6BFC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E093C8FD-49D6-44FB-A78E-3D3B0CC6BFC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E093C8FD-49D6-44FB-A78E-3D3B0CC6BFC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E093C8FD-49D6-44FB-A78E-3D3B0CC6BFC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{083469A3-5C36-4237-9310-4DE7DAFC8D9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{083469A3-5C36-4237-9310-4DE7DAFC8D9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{083469A3-5C36-4237-9310-4DE7DAFC8D9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{083469A3-5C36-4237-9310-4DE7DAFC8D9E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
