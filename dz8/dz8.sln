@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8_2", "8_2\8_2.csproj", "{0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dz8_3_solution", "dz8_3_solution\dz8_3_solution.csproj", "{193C6202-0472-438D-9A7C-835BE6CFBC6A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dz8_4", "dz8_4\dz8_4.csproj", "{D71390D9-0CBD-46E4-95B7-BD7CE1A0FCE0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{193C6202-0472-438D-9A7C-835BE6CFBC6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{193C6202-0472-438D-9A7C-835BE6CFBC6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{193C6202-0472-438D-9A7C-835BE6CFBC6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D71390D9-0CBD-46E4-95B7-BD7CE1A0FCE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D71390D9-0CBD-46E4-95B7-BD7CE1A0FCE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D71390D9-0CBD-46E4-95B7-BD7CE1A0FCE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D71390D9-0CBD-46E4-95B7-BD7CE1A0FCE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
